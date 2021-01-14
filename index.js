@@ -8,12 +8,12 @@ import 'react-native-gesture-handler'
 import AuthorizationPage from './src/practices/AuthorizationPage'
 import React from 'react'
 import { NavigationContainer } from '@react-navigation/native'
-import LatticePage from './src/practices/LatticePage'
+import WebviewPage from './src/practices/WebviewPage'
 import {name as appName} from './app.json'
 
 export default function App() {
   return (
-    <LatticePage />
+    <WebviewPage />
   )
 }
 
